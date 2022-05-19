@@ -1,0 +1,37 @@
+.container__adicionar{ 
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding:  32px 32px 0px 16px;
+  
+}
+
+.id__produto{
+  font-family: inherit;
+  font-weight: var(--peso-fonte-medium);
+  font-size: 14px;
+
+}
+
+.manager{
+  position: relative;
+
+}
+
+.manager__remove{
+  position: absolute;
+  top: 2%;
+  left: 60%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.493);
+   
+}
+
+.manager__add{
+  position: absolute;
+  top: 2%;
+  left: 80%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.493);
+   
+}
