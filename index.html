@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-container.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-logo.css">
-    <link rel="stylesheet" href="assets/css/cabecalho/barra-pesquisa.css">
-    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-botao.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-barraPesquisa.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-link.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-btnMobile.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-iteracao.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-icons.css">
   </head>
 
   <body>
@@ -21,21 +24,27 @@
       <section class="cabecalho__container">
         <img  class="cabecalho__logo" src="assets/img/svg/Logo.svg" alt="Logo AluraGeek">
 
-        <div class="cabecalho__barraPesquisa">
-          <input class="cabecalho__input" type="text" name="Barra de busca" placeholder="O que deseja encontrar ?" id="barraPesquisa">
+        <div class="cabecalho__containerPesquisa">
+          <input class="cabecalho__barraPesquisa" type="text" name="Barra de busca" placeholder="Pesquisar" id="barraPesquisa">
 
-          <button class="cabecalho__pesquisar" id="pesquisar">
-            <img class="cabecalho__imgLupa" src="assets/img/svg/lupa-mobile.svg" alt="Lupa">
-          </button>          
+          <button class="cabecalho__pesquisar">
+            <img class="cabecalho__imgLupa" src="assets/img/svg/lupa-mobile.svg" alt="Lupa">            
+          </button>
         </div>
       </section>
 
       <a href="#" class="cabecalho__link--login" aria-label="Acessar Login">Login</a>
+
+      <button class="cabecalho__btnMobile" id="pesquisar">
+        <img class="cabecalho__imgLupa" src="assets/img/svg/lupa-mobile.svg" alt="Lupa">
+        <img class="cabecalho__icon" src="assets/img/svg/x-.svg" alt="">
+      </button>
     </header>
-    
+
+
+
+    <footer></footer>
+  
+    <script src="assets/js/search.js"></script>
   </body>
-
-  <footer>
-
-  </footer>
 </html>
