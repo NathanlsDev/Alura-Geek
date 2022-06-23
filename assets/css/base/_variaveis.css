@@ -11,7 +11,7 @@
   
   /*fonte*/
   --fonte-raleway: 'Raleway', sans-serif;
-  --peso-fonte-bold: 700;
-  --peso-fonte-semi-bold: 600;
-  --peso-fonte-medium: 500;
+  --fonte-medium: 500;
+  --fonte-semiBold: 600;
+  --fonte-bold: 700;
 }
