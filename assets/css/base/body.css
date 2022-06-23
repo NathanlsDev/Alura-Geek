@@ -1,0 +1,17 @@
+@import url(_reset.css);
+@import url(_normalize.css);
+@import url(_variaveis.css);
+
+*{
+  border: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;  
+}
+
+body{
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-raleway);
+}
