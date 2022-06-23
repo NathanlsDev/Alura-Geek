@@ -2,7 +2,7 @@
   /*Cores*/
   --azul: #2A7AE4;
   --azul-rodape: #EAF2FD;
-  --azul-hover-1nd-mobile: #5595E9;
+  --azul-hover-1nd: #5595E9;
   --azul-hover-2nd-mobile: #D4E4FA;
   --branco: #FFFFFF;
   --cor-de-fundo: #F5F5F5;
@@ -11,7 +11,7 @@
   
   /*fonte*/
   --fonte-raleway: 'Raleway', sans-serif;
-  --peso-fonte-bold: 700;
-  --peso-fonte-semi-bold: 600;
-  --peso-fonte-medium: 500;
+  --fonte-bold: 700;
+  --fonte-medium: 500;
+  --fonte-light: 400;
 }
