@@ -1,0 +1,13 @@
+let campoPesquisa = document.querySelector("#pesquisar");
+
+let barraDeBusca = document.querySelector(".cabecalho__containerPesquisa");
+let logo = document.querySelector(".cabecalho__logo");
+let link = document.querySelector(".cabecalho__link--login");
+let icone = document.querySelector(".cabecalho__imgLupa");
+
+campoPesquisa.addEventListener("click", function(){
+  barraDeBusca.classList.toggle('mostrar');
+  logo.classList.toggle('esconder');
+  link.classList.toggle('esconder');
+  
+});
