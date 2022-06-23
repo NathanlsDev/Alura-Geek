@@ -1,0 +1,9 @@
+.mostrar{
+  display: flex;
+  max-width: 70%;
+    
+}
+
+.esconder{
+  display: none;
+}
