@@ -2,3 +2,17 @@
   height: 75px;
   width: 200px;
 }
+
+@media screen and (max-width: 768px) {
+  .cabecalho__logo{
+    width: 150px;
+
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cabecalho__logo{
+    width: 120px;
+
+  }
+}
