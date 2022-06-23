@@ -1,0 +1,6 @@
+.cabecalho__container{
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  width: 600px;
+}

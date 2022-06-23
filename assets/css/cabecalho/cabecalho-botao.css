@@ -1,0 +1,14 @@
+.cabecalho__link--login{
+  align-items: center;
+  background: none;
+  border: 1px solid var(--azul);
+  color: var(--azul);
+  display: flex;
+  font-weight: var(--fonte-light);
+  font-size: 1rem;
+  height: 51px;
+  justify-content: center;
+  line-height: 18.78px;
+  margin-left: 30px;
+  width: 182px;
+}
