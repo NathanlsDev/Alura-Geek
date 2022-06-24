@@ -9,20 +9,18 @@
   height: 51px;
   justify-content: center;
   line-height: 18.78px;
-  width: 182px;
+  width: 182px;  
 }
 
 @media screen and (max-width: 768px) {
   .cabecalho__link--login{
-    width: 166px;
     height: 40px;
-
+    width: 166px;
   }  
 }
 
 @media screen and (max-width: 620px) {
   .cabecalho__link--login{
     width: 133px;
-
   }  
 }

@@ -1,13 +1,11 @@
 .cabecalho__btnMobile{
   background: none;
   display: none;
-
 }
 
 @media screen and (max-width: 620px) {
   .cabecalho__btnMobile{
     display: block;
-    margin-left: 16px;
-        
+    margin-left: 16px;        
   }  
 }

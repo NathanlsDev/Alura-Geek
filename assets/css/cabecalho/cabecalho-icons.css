@@ -1,10 +1,4 @@
-.cabecalho__imgLupa, .cabecalho__icon{
+.cabecalho__imgLupa{
   height: 17.05px;
   width: 17.05px;
-
-}
-
-.cabecalho__icon{
-  display: block;
-  
 }
