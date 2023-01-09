@@ -1,0 +1,41 @@
+.destaque{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 192px;
+
+  font-family: inherit;
+  color: var(--branco);
+
+  
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../img/header-banner.jpg) center / cover no-repeat;  
+}
+
+.destaque__chamada{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+  position: static;
+  width: 100vw;
+
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.75rem;
+}
+
+.destaque__titulo{  
+ 
+  font-weight: var(--peso-fonte-bold);
+  font-size: 22px;
+  
+}
+
+.destaque__texto{
+  font-weight: var(peso-fonte-semi-bold);
+  font-size: 14px;
+
+}

@@ -1,0 +1,65 @@
+.botao{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .75rem 1rem; /*12px 16px*/
+
+  position: relative;
+  width: 8.313rem;/*133px*/
+  height: 2.5rem;/*40px*/
+
+  background-color: var(--azul);  
+  box-sizing: border-box;
+
+  color: var(--branco);
+  font-family: inherit;
+  font-weight: var(--peso-fonte-semi-bold);
+  font-size: .875rem; /*14px*/
+}
+
+.botao:hover{
+  background-color: var(--azul-hover-1nd-mobile);
+}
+
+.botao__secundario{  
+  position: static;
+  
+  border: 1px solid var(--azul);
+  background-color: unset;  
+
+  color: var(--azul);
+}
+
+.botao__secundario:hover{
+  background-color: var(--azul-hover-2nd-mobile);
+}
+
+/*Botão do formulário*/
+.botao__formulario{
+  margin-top: 16px;
+  width: 151px;
+
+}
+
+/*Botão do Login*/
+.botao__login{ 
+  margin-top: 16px;
+  width: 109px;
+  
+}
+
+/*Botão página admin*/
+.botao__adicionar{
+  margin-top: 16px;
+  width: 156px;
+}
+
+/*botão menu admnistrador*/
+.botao__administrador{
+  width: 168px;
+}
+
+.botao__add-produto{
+  width: 100%;
+}

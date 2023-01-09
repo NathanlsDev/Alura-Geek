@@ -1,0 +1,33 @@
+.titulo__categoria{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 32px 16px 16px 16px;
+}
+
+.titulo{
+  font-family: inherit;
+  font-weight: var(--peso-fonte-bold);
+  font-size: 22px;
+  color: var(--preto);
+}
+
+/*titulo produtos na home*/
+.titulo__produto{
+  font-weight: var(--peso-fonte-medium);
+  font-size: 14px;
+}
+
+/*Titulo produtos na pagina produtos*/
+.titulo__produtos{
+  font-weight: var(--peso-fonte-medium);
+  margin-bottom: 16px;
+
+}
+
+/* Titulo formularios */
+.titulo__formulario{
+  font-size: 16px;
+
+}
